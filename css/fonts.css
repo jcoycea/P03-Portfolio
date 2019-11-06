@@ -1,34 +1,13 @@
 @font-face {
-  font-family: "Europa";
-  src: url('../fonts/Europa-Regular.otf');
+  font-family: "Canela-Regular";
+  src: url('../fonts/CanelaWeb-Regular.ttf');
   font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-  font-family: "Europa";
-  src: url('../fonts/Europa-Light.otf');
+  font-family: "Canela-Thin";
+  src: url('../fonts/CanelaWeb-Thin.ttf');
   font-weight: normal;
 	font-style: normal;
-}
-
-@font-face {
-  font-family: "Europa";
-  src: url('../fonts/Europa-Bold.otf');
-  font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-  font-family: "Muli";
-  src: url('../fonts/Muli-Regular.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Muli";
-  src: url('../fonts/Muli-Light.ttf');
-  font-weight: normal;
-  font-style: normal;
 }
