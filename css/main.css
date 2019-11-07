@@ -112,7 +112,7 @@ img {
 /***** STYLE GUIDE INTERACTIVE ELEMENTS *****/
 
 .current_link {
-  color: #4151a3;
+  color: darkgray;
 }
 
 #sg_menu {
@@ -217,18 +217,21 @@ img {
 
 }
 
-.font-usage .col-2-3 {
-  width: 40%;
+.font-usage .col-1-2 {
+  /* width: 40%; */
   background-color: lavender;
-  padding: 0 2rem;
+  padding: 0 1rem 1rem 1rem;
+  /* padding: 0 2rem; */
 }
 
-.type-specimen .col-1-3 {
-  width: 40%;
+.type-specimen .col-1-2 {
+  /* width: 40%; */
   background-color: pink;
-  margin: 2rem;
+  /* margin: 2rem; */
+  padding: 1.5rem;
 }
-/***** PROJECT LAYOUT TYPOGRAPHY *****/
+
+/***** PROJECT LAYOUT SECTION *****/
 
 #project1 {
   padding-bottom: 2.5rem;
@@ -321,6 +324,45 @@ figcaption {
 
 .final-product .col-1-2 img {
   margin: 0;
+}
+
+/***** ABOUT SECTION LAYOUT *****/
+
+.about-me .col-9-12 {
+  padding: 0 1rem 1rem 1rem;
+  float: right;
+}
+
+.about-title {
+  line-height: 3.2rem;
+  font-size: 2.5rem;
+}
+
+.about-text {
+  margin-top: 1.5rem;
+}
+
+.about-desc {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.currently {
+  font-family: "Canela-Thin", calluna, serif;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+.about-contact {
+  margin-top: 4rem;
+}
+
+.about-links {
+  color: #000;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /***** SECTION TITLE *****/
