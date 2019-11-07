@@ -13,20 +13,31 @@
   </head>
 
   <body>
-    <header class="content_container">
+    <header class="sg_container col-1-1">
       <h1>Portfolio Style Guide</h1>
-      <nav class="main_nav">
-        <a href="#typography" class="main_nav_item">Typography</a>
-        <a href="#button_links" class="main_nav_item">Buttons and Links</a>
-        <a href="#branding" class="main_nav_item">Branding</a>
-        <a href="#project_layouts" class="main_nav_item">Project Layout</a>
+      <p>This styleguide is a resource for providing a common language around my portfolio design patterns. It is used to maintain code structure and visual consistency across platforms.</p>
+
+      <nav id="sg_menu">
+        <div class="col-1-4">
+          <a href="#typography" class="main_nav_item">Typography</a>
+        </div>
+        <div class="col-1-4">
+          <a href="#button_links" class="main_nav_item">Buttons & Links</a>
+        </div>
+        <div class="col-1-4">
+          <a href="#branding" class="main_nav_item">Branding</a>
+        </div>
+        <div class="col-1-4">
+          <a href="#project_layouts" class="main_nav_item">Project Layout</a>
+        </div>
       </nav>
+
     </header>
 
 
 
     <!-- TYPOGRAPHY SECTION // -->
-    <div class="content_container">
+    <div class="sg_container col-1-1">
 
       <section id="typography">
         <h2 class="main_heading">Typography<h2>
@@ -95,7 +106,7 @@
 
 
     <!-- BUTTON & LINKS SECTION // -->
-    <div class="content_container">
+    <div class="sg_container col-1-1">
 
       <section id="button_links">
         <h2 class="main_heading">Buttons and Links<h2>
@@ -136,7 +147,7 @@
 
 
     <!-- BRANDING SECTION // -->
-    <div class="content_container">
+    <div class="sg_container col-1-1">
 
       <section id="branding">
         <h2 class="main_heading">Branding<h2>
@@ -152,7 +163,7 @@
             </div>
 
             <div id="swatch2">
-              <h4 class="color_title">#FFFFFF</h4>
+              <h4 class="color_title">#FAFAFA</h4>
             </div>
 
             <div id="swatch3">
@@ -175,45 +186,115 @@
 
 
     <!-- PROJECT LAYOUT SECTION // -->
-    <div class="content_container">
+    <div class="sg_container col-1-1">
       <section id="project_layouts">
         <h2 class="main_heading">Project Layout<h2>
+      </section>
+    </div>
 
-        <section class="element">
-          <!-- Manulife Forward -->
-          <div class="project">
+      <section class="element">
+        <!-- Manulife Forward -->
+        <div id="project1">
 
-            <div class="brief">
-              <h1 class="main-title"><span class="bold-main-title">Locale Magazine</span> A print publication focused on inspiring travellers to explore with a local perspective.</h1>
+          <div class="project_brief">
+            <div class="project-desc">
+              <div class="col-8-12">
+                <h1 class="main-title"><span class="bold-project-name">Locale Magazine</span> A print publication focused on inspiring travellers to explore dream destinations with a local perspective.</h1>
+              </div>
+            </div>
 
-              <div class="specs">
+            <div class="project-specs">
+              <div class="col-4-12">
                 <h4 class="specs-title">Role</h4>
                 <p>Art Director, Visual Designer</p>
 
                 <h4 class="specs-title">Skills Involved</h4>
                 <p>Graphic Design, Branding</p>
+              <!-- </div>
 
+              <div class="col-1-4"> -->
                 <h4 class="specs-title">Tools</h4>
                 <p>InDesign, Illustrator, Photoshop</p>
 
                 <h4 class="specs-title">Team</h4>
                 <p>Aurora Chiu, Emma Cheung, Patricia Chak, Karlie Kwok, Joanne Xiao</p>
-
               </div>
 
-              <h2 class="sub-title1">Overview</h2>
-              <p>This project is a magazine business concept created in a upper-division publishing course.<br> With the mission to inspire a new type of travelling by connecting young travellers with the local, "insider" perspective, Locale is a travel magazine that guides travellers to see the unknown side of their dream destinations and to seek memorable and authentic experiences. Locale is unique among all competing travel magazines because each issue is dedicated to a specific city – our first issue focuses on the city of Vienna. </p>
-
-              <h2 class="sub-title1">Process</h2>
-              <h3 class="sub-title2">Research</h3>
-              <p>As the art director, I was in charge of creating Locale Magazine’s overall graphic identity and helping with the direction of content strategy. I started by looking at other competing travel magazines, such as Suitcase, Hayo, and Lonely Planet, and how my team’s magazine could visually stand out. I noticed that these magazines heavily relied on culture-related imagery to sell travel and to cultivate interest and aspirational value in the experiences of travelling abroad.<br> I also looked at onthegrid.city (side note: I sourced most of the magazine’s images from this website), which is an online platform where creatives from around the world contribute to local neighbourhood guides, and noted how the authentic photography and honest suggestions for certain destinations were used to entice readers of the site to be potential travellers.</p>
             </div>
-
           </div>
 
-        </section>
+          <img src="img/locale/locale-covers-vienna.jpg" alt="Locale Magazine Covers" class="fullscreen-image">
+
+          <div class="project-analysis project_container">
+            <h2 class="sub-title1">Overview</h2>
+            <p>This project is a magazine business concept created in a upper-division publishing course.</p>
+            <p>With the mission to inspire a new type of travelling by connecting young travellers with the local, "insider" perspective, Locale is a travel magazine that guides travellers to see the unknown side of their dream destinations and to seek memorable and authentic experiences. Locale is unique among all competing travel magazines because each issue is dedicated to a specific city – our first issue focuses on the city of Vienna. </p>
+
+            <h2 class="sub-title1">Process</h2>
+            <h3 class="sub-title2">Research</h3>
+            <p>As the art director, I was in charge of creating Locale Magazine’s overall graphic identity and helping with the direction of content strategy. I started by looking at other competing travel magazines, such as Suitcase, Hayo, and Lonely Planet, and how my team’s magazine could visually stand out. I noticed that these magazines heavily relied on culture-related imagery to sell travel and to cultivate interest and aspirational value in the experiences of travelling abroad.</p>
+            <p>I also looked at <a href="onthegrid.city" target="_blank" class="intext-link">onthegrid.city</a> (side note: I sourced most of the magazine’s images from this website), which is an online platform where creatives from around the world contribute to local neighbourhood guides, and noted how the authentic photography and honest suggestions for certain destinations were used to entice readers of the site to be potential travellers.</p>
+          </div>
+
+          <figure class="overlap-middle-image">
+            <img src="img/locale/locale-moodboard.png" alt="Moodboard for Locale Magazine">
+            <figcaption>Moodboard — Photography and Print Inspiration</figcaption>
+          </figure>
+
+          <div class="project-analysis project_container">
+            <h3 class="sub-title2">Design Decisions</h3>
+            <p>After familiarizing myself with the competition and collecting a variety of photography and print inspiration, I keenly went ahead and created concept sketches for the cover and spreads and then transformed these into digital mockups for our travel magazine.</p>
+
+            <figure class="middle-image">
+              <img src="img/locale/locale-cover-sketches.png" alt="Cover sketches for Locale Magazine">
+              <img src="img/locale/locale-cover-mockups.png" alt="Cover mockups for Locale Magazine">
+            </figure>
+
+            <p>For the mockups of the cover, I wanted imagery to be the prominent focus and to look like it was carefully chosen and styled to reflect the city. I also played with strong typography for the nameplate so that it would recognizable on store shelves. I sent these mockups to my team members to seek feedback and they really liked the second mockup as the cover to move forward with in the future designs. They were drawn to this cover because the nameplate was bold and the imagery represented the kind of style and direction we wanted.</p>
+          </div>
+
+          <div class="project-analysis project_container">
+            <h2 class="sub-title1">Final Product</h2>
+            <h3 class="sub-title2">Print</h3>
+            <p>For the final design, Locale’s visual style employs clean, minimal, and modern design. All print issues include a photo essay on the particular city and offers a vibrant glimpse into the lifestyle of the locals. Each print issue is also given their own ambient colour on the cover to reflect the city’s personality and atmosphere. With its sophisticated look, the reader will want to display it in their home, or bring it along with them on their next adventure.</p>
+          </div>
+
+          <figure class="overlap-middle-image">
+            <img src="img/locale/locale-yearly-covers.png" alt="Yearly covers for Locale Magazine">
+          </figure>
+
+          <div class="project-analysis project_container">
+            <p>The spreads give detailed descriptions of places in the local area to visit and the visuals are high-quality and edited to follow a consistent colour theme and mood for the featured city. Its uncluttered simplicity and use of negative space lets text and graphics breathe, making it easy to read.</p>
+          </div>
+
+          <div class="final-product">
+            <div class="col-1-2">
+              <img src="img/locale/locale-spread1.png" alt="Locale Magazine spread 1">
+            </div>
+
+            <div class="col-1-2">
+              <img src="img/locale/locale-spread2.png" alt="Locale Magazine spread 2">
+            </div>
+
+            <div class="col-1-2">
+              <img src="img/locale/locale-spread3.png" alt="Locale Magazine spread 3">
+            </div>
+
+            <div class="col-1-2">
+              <img src="img/locale/locale-spread4.png" alt="Locale Magazine spread 4">
+            </div>
+          </div>
+
+          <div class="project-analysis project_container">
+            <h2 class="sub-title1">Takeaway</h2>
+            <p>Overall, I was really pleased with how the magazine turned out. My peers were impressed with the professional-looking quality of our final product and the visual brand consistency in our presentation.</p>
+
+            <p>As an individual who loves using imagery to create colour palettes and dreams about travelling, I enjoyed researching/mindlessly scrolling through photographs and looking at all the cultural lifestyles and “colours” of these cities and neighbourhoods.</p>
+          </div>
+
+        </div>
+
       </section>
-    </div>
 
   </body>
 
