@@ -217,19 +217,15 @@ img {
 
 }
 
-.font-usage .col-1-2 {
-  /* width: 40%; */
-  background-color: lavender;
-  padding: 0 1rem 1rem 1rem;
-  /* padding: 0 2rem; */
+.font-usage {
+  margin-right: 20%;
 }
 
-.type-specimen .col-1-2 {
-  /* width: 40%; */
+/* .type-specimen {
   background-color: pink;
-  /* margin: 2rem; */
   padding: 1.5rem;
-}
+  margin-left: 1.5rem;
+} */
 
 /***** PROJECT LAYOUT SECTION *****/
 
