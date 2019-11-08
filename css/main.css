@@ -254,7 +254,7 @@ img {
 }
 
 .specs-title {
-  margin-bottom: 0;
+  margin-bottom: 0.5em;
 }
 
 .project-analysis {
@@ -312,7 +312,7 @@ figcaption {
 
 .about-me .col-9-12 {
   float: right;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1rem 1rem 0;
 }
 
 .about-title {
@@ -353,11 +353,31 @@ figcaption {
 
 /***** PORTFOLIO HOME *****/
 
-.nav_left {
-  float: left;
+.main_nav {
+  width: 100%;
+  overflow: hidden;
 }
 
-.nav_right {
-  float: right;
+.main_nav_left, .main_nav_right {
+  transition: color 0.5s ease-out;
+  text-decoration: none;
+  font-family: nimbus-sans-extended, sans-serif;
+
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  color: #000;
 }
+
+.main_nav_left {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+
+.main_nav_right {
+  float: right;
+  margin: 1em 0 1em 1em;
+}
+
+
 /***** PORTFOLIO ABOUT *****/
