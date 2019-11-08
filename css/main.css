@@ -117,7 +117,6 @@ img {
 
 #sg_menu {
   display: block;
-  width: 95%;
   text-align: center;
 }
 
@@ -143,19 +142,6 @@ img {
 
 .intext-link:hover {
   color: #4151a3;
-}
-
-.sg_container { /* container that holds the page body content */
-  /* flex-grow: 1;
-  z-index: 1; */
-
-  margin: 2rem;
-  padding: 2rem;
-}
-
-.sg_container #typography, .sg_container #button_links,
-.sg_container #branding, .sg_container #project_layouts {
-  width: 95%;
 }
 
 /***** STYLE GUIDE BRANDING *****/
@@ -325,8 +311,8 @@ figcaption {
 /***** ABOUT SECTION LAYOUT *****/
 
 .about-me .col-9-12 {
-  padding: 0 1rem 1rem 1rem;
   float: right;
+  padding: 0 1rem 1rem 1rem;
 }
 
 .about-title {
@@ -361,4 +347,17 @@ figcaption {
   font-size: 1rem;
 }
 
-/***** SECTION TITLE *****/
+
+
+
+
+/***** PORTFOLIO HOME *****/
+
+.nav_left {
+  float: left;
+}
+
+.nav_right {
+  float: right;
+}
+/***** PORTFOLIO ABOUT *****/
