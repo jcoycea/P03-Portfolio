@@ -36,7 +36,7 @@ h4 { /* project details */
   letter-spacing: 1.25px;
 }
 
-h5 { /* single photo captions */
+h5, figcaption { /* single photo captions */
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 400;
 	font-size: 0.85rem;
@@ -221,12 +221,12 @@ img {
 }
 
 .project_container {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 22%;
+  margin-right: 22%;
 }
 
 .project_brief {
-  margin: 2rem;
+  margin: 1em 2.5rem 4rem 2.5rem;
   padding: 2rem;
 }
 
@@ -235,8 +235,8 @@ img {
 }
 
 .main-title {
-  line-height: 2.6rem;
-  font-size: 2.2rem;
+  line-height: 2.9rem;
+  font-size: 2.4rem;
 }
 
 .bold-project-name {
@@ -257,6 +257,11 @@ img {
   margin-bottom: 0.5em;
 }
 
+.specs-content {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
 .project-analysis {
   padding-top: 2em;
 }
@@ -272,26 +277,28 @@ img {
 .fullscreen-image {
   width: 100%;
   height: auto;
+  margin-top: 2em;
   /* min-height: auto;
   min-width: 1440px; */
 }
 
 .overlap-middle-image {
-  margin: 4em 20% 4em 20%;
+  margin: 4em 15% 4em 15%;
   text-align: center;
 }
 
 .middle-image {
   text-align: center;
-  margin: 0;
+  margin: 3em 0 3em 0;
 }
 
 figcaption {
-  text-align: center;
+  /* text-align: center;
   font-family: "Canela-Thin", calluna, serif;
   font-weight: 300;
-  letter-spacing: 0.05rem;
-  margin-top: 0.5rem;
+  letter-spacing: 0.05rem; */
+  /* margin-top: 0.5rem; */
+  margin: 1rem 2.5rem 0 2.5rem;
 }
 
 .final-product {
@@ -346,7 +353,11 @@ figcaption {
   font-size: 1rem;
 }
 
-
+em {
+  margin-top: 1em;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+}
 
 
 
@@ -382,8 +393,68 @@ figcaption {
   margin: 1em 0 1em 1em;
 }
 
-#project_list, #about {
-  margin-top: 6em;
+#project_list {
+  margin-top: 10em;
 }
 
-/***** PORTFOLIO ABOUT *****/
+#about {
+  margin-top: 4em;
+}
+
+#tealeaves, #manulife, #caseit,
+#locale, #illustrations, #graphic-archive {
+  margin-top: 5em;
+}
+
+.project-link {
+  color: #000;
+}
+
+.centred {
+  text-align: center;
+}
+
+/***** PORTFOLIO ILLUSTRATIONS *****/
+
+.illustration-grid {
+  width: 90%;
+	margin: 3em auto;
+	column-gap: 1em;
+  column-width: 30em;
+}
+
+@media (max-width: 690px) {
+  .illustration-grid {
+    width: 100%;
+    margin: 2.5em auto;
+  }
+}
+
+.illustration-grid figure {
+	margin: 0.5em;
+  display: inline-block;
+}
+
+.illustration-grid figure img {
+  width: 100%;
+  height: auto;
+}
+
+/* .illustration-grid figure video {
+  background-color: transparent !important;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+} */
+
+.illustration-grid figure figcaption {
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+  font-size: 0.65em;
+  letter-spacing: 0.05em;
+
+  padding-bottom: 3em;
+  line-height: 1.5em;
+  text-align: center;
+  color: #666;
+}
