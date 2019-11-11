@@ -274,10 +274,13 @@ img {
   margin-bottom: 0.1rem;
 }
 
+/* .project-hero {
+  margin-top: 3em;
+} */
+
 .fullscreen-image {
   width: 100%;
   height: auto;
-  margin-top: 2em;
   /* min-height: auto;
   min-width: 1440px; */
 }
