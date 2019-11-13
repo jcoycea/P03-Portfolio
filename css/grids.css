@@ -195,8 +195,8 @@
 		min-width: 0;
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 20px; /* grid-space to left */
-		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+		padding-left: 0; /* 20px; /* grid-space to left */
+		padding-right: 0; /* 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
 	}
 
 	[class*='col-'] {

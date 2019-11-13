@@ -1,5 +1,154 @@
+/*****
+SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
+*****/
+
+@media (max-width: 1200px) {
+
+  .project .imageBox {
+    padding-top: calc((8.33%*12 - 1.25rem)*0.667) !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .project .images {
+    margin: 0 0 7.5rem 0;
+    height: auto;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
+  .about-me {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
   .about-me .push-1-3 {
     margin-left: 0;
+  }
+
+  #project-list .grid {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .main_nav {
+    margin-top: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: relative;
+  }
+
+  .illustration-grid figure {
+    margin: 0;
+  }
+
+  .slide-dots {
+    margin-top: 2.5em;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+  }
+}
+
+@media (max-width: 690px) {
+
+  /* Portfolio Illustrations */
+  .illustration-grid {
+    width: 100%;
+    margin: 2.5em auto;
+  }
+}
+
+/* Portrait and Landscape Mobile */
+/* @media only screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) { */
+
+@media screen and (max-width: 414px) {
+
+  /* Portfolio General */
+
+  .main_nav_left {
+    margin-left: 2em;
+    margin-top: 0;
+  }
+
+  .main_nav_right {
+    margin-right: 2em;
+    margin-top: 0;
+  }
+
+  .list_project_name {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  /* Portfolio About */
+
+  .about-title {
+    line-height: 2.6rem;
+    font-size: 2rem;
+  }
+
+  /* Portfolio Projects */
+
+  #tealeaves, #manulife, #caseit,
+  #locale, #illustrations, #graphic-archive,
+  #project-list, #about {
+    margin-top: 0;
+  }
+
+  .project_brief {
+    margin: 0;
+    padding: 0 2em 2em 2em;
+  }
+
+  .project-hero {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .project-desc .col-8-12 {
+    padding: 0;
+  }
+
+  .project-specs .col-4-12 {
+    padding: 0;
+  }
+
+  .specs-title {
+    margin-top: 3em;
+  }
+
+  .project-desc {
+    width: 100%;
+  }
+
+  .project-analysis {
+    padding-top: 0;
+  }
+
+  .project_container {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .overlap-middle-image {
+    margin: 3em 0 3em 0;
+  }
+
+  .final-product {
+    background-color: #EBEBED;
+  }
+
+  .illustration-grid figure figcaption {
+    padding-bottom: 4.5em;
+  }
+
+  .prev, .next {
+    display: none;
   }
 }

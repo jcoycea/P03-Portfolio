@@ -112,21 +112,77 @@
 
           <h3 class="sub-title2">Brand Experience Pyramid</h3>
 
-          <div class="project-image-carousel">
-            <div class="overlap-middle-image">
-              <div class="image-box">
-                <div class="image-button-right"></div>
-                <div class="image-button-left"></div>
-                <img src="img/manulife/pyramid-1-approachable.png" alt="Experience Pyramid - Approachable">
+          <!-- <div class="project" data-imgSelect="0"> -->
+
+            <!-- <div class="overlap-middle-image"> -->
+              <div class="slideshow-container">
+
+                <div class="slideshow fade">
+                   <img src="img/manulife/pyramid-1-approachable.png" class="project-carousel-image" alt="Experience Pyramid - Approachable">
+                   <h5 class="slide-caption">Approachable — Making insurance feel less intimidating</h5>
+                 </div>
+
+                 <div class="slideshow fade">
+                   <img src="img/manulife/pyramid-2-transparent.png" class="project-carousel-image" alt="Experience Pyramid - Transparent">
+                   <h5 class="slide-caption">Transparent — Keeping customers informed and involved</h5>
+                 </div>
+
+                 <div class="slideshow fade">
+                   <img src="img/manulife/pyramid-3-forwardthinking.png" class="project-carousel-image" alt="Experience Pyramid - Forward Thinking">
+                   <h5 class="slide-caption">Forward Thinking — Capable of handling many situations by anticipating customer needs</h5>
+                 </div>
+
+                 <div class="slideshow fade">
+                   <img src="img/manulife/pyramid-4-reliable.png" class="project-carousel-image" alt="Experience Pyramid - Reliable">
+                   <h5 class="slide-caption">Reliable — Instilling confidence in our customers</h5>
+                 </div>
+
+                 <div class="slideshow fade">
+                   <img src="img/manulife/pyramid-5-joyofuse.png" class="project-carousel-image" alt="Experience Pyramid - Joy of Use">
+                   <h5 class="slide-caption">Joy of Use — Transforming occasional customers into loyal customers</h5>
+                 </div>
+
+                 <!-- Next &#10094; and previous &#10095 buttons -->
+                 <a class="prev" onclick="plusSlides(-1)">⟵</a>
+                 <a class="next" onclick="plusSlides(1)">⟶</a>
+
               </div>
+            <!-- </div> -->
+
+            <br>
+
+            <!-- The dots/circles -->
+            <div class="slide-dots centred">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
             </div>
-          </div>
+
+            <!-- <div class="images">
+              <div class="col-1-1">
+                <div class="imageBox">
+                  <div class="imageButtonRight"></div>
+                  <div class="imageButtonLeft"></div>
+                  <img src="img/manulife/pyramid-1-approachable.png" data-imgNum="0" alt="Experience Pyramid - Approachable">
+                  <img src="img/manulife/pyramid-2-transparent.png" data-imgNum="1" alt="Experience Pyramid - Transparent">
+                  <img src="img/manulife/pyramid-3-forwardthinking.png" data-imgNum="2" alt="Experience Pyramid - Forward Thinking">
+                  <img src="img/manulife/pyramid-4-reliable.png" data-imgNum="3" alt="Experience Pyramid - Reliable">
+                  <img src="img/manulife/pyramid-5-joyofuse.png" data-imgNum="4" alt="Experience Pyramid - Joy of Use">
+                </div>
+                <div class="dotBox"></div>
+              </div>
+            </div> -->
+
+          <!-- </div> -->
 
           <br>
           <h3 class="sub-title2">Scenario</h3>
           <p>Using a user scenario was important for my team to connect with a customer’s story and helped guide our content and product strategy decisions in the user interface and user experience. The storytelling also helped my team to be able to present insurance in an emotionally engaging way.</p>
 
           <figure class="middle-image">
+            <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/340293519?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
           </figure>
         </div>
 
@@ -158,6 +214,8 @@
       </div>
 
     </section>
+
+  	<script src="scripts/main.js"></script>
 
   </body>
 </html>
