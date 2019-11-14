@@ -3,7 +3,7 @@ div {
 }
 
 body {
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
   margin: 0;
 }
 
@@ -573,7 +573,7 @@ em {
   cursor: pointer;
   height: 6px;
   width: 6px;
-  margin: 0 2px;
+  margin: 1em 2px;
   background-color: #999;
   border-radius: 50%;
   display: inline-block;
