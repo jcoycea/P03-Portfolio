@@ -72,12 +72,12 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   /* Portfolio General */
 
   .main_nav_left {
-    margin-left: 2em;
+    /* margin-left: 2em; */
     margin-top: 0;
   }
 
   .main_nav_right {
-    margin-right: 2em;
+    /* margin-right: 2em; */
     margin-top: 0;
   }
 
@@ -91,6 +91,15 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   .about-title {
     line-height: 2.6rem;
     font-size: 2rem;
+  }
+
+  .copyright-text {
+    float: none;
+    margin: 1.5em 0 0 0;
+  }
+
+  .copyright-links {
+    margin: 1.5em 0;
   }
 
   /* Portfolio Projects */

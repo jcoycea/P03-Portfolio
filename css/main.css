@@ -121,6 +121,14 @@ img {
   text-align: center;
 }
 
+.sg_main_nav {
+  width: 100%;
+  background-color: none;
+  top: 0;
+  position: relative;
+  z-index: 100;
+}
+
 .main_nav_item {
   padding: 0.8rem 1.5rem;
   transition: color 0.5s ease-out;
