@@ -433,6 +433,10 @@ em {
   z-index: 100;
 }
 
+.main_nav .col-1-1, .footer .col-1-1 {
+  padding-right: 0;
+}
+
 .main_nav_left, .main_nav_right {
   transition: color 0.5s ease-out;
   text-decoration: none;
@@ -478,6 +482,28 @@ em {
 .prototype-gif {
   margin: 0;
 }
+
+.footer_left, .footer_right {
+  transition: color 0.5s ease-out;
+  text-decoration: none;
+  font-family: nimbus-sans-extended, sans-serif;
+
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  color: #000;
+}
+
+.footer_left {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+
+.footer_right {
+  float: right;
+  margin: 1em 0 1em 1em;
+}
+
 /***** PORTFOLIO ILLUSTRATIONS *****/
 
 .illustration-grid {
