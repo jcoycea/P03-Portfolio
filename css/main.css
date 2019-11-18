@@ -557,7 +557,7 @@ em {
   width: 100%;
 }
 
-.slideshow-container {
+.slideshow-container1, .slideshow-container2, .slideshow-container3 {
   width: 100%;
   position: relative;
   margin: 0;
