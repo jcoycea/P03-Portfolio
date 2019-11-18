@@ -11,8 +11,10 @@
     <link rel="stylesheet" type="text/css" href="css/media.css">
     <link rel="stylesheet" type="text/css" href="css/grids.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/flickity.css">
     <link rel="stylesheet" href="https://use.typekit.net/vte2ujr.css">
 
+    <script src="scripts/hammer.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -72,116 +74,33 @@
 
           <br>
 
-          <!-- <div class="slideshow-container">
-
-            <input type="checkbox" class="faux-ui-facia">
-            <div class="slide" slide="6" annot="A competing team from Chulalongkorn University, Thailand with their team host, Marilyn! Photo by Carolyn Yip">
-              <img src="img/caseit/chulalongkorn-thailand-team.jpg" class="project-carousel-image" alt="Slide 6">
+          <div class="carousel"
+             data-flickity='{ "lazyLoad": true }'>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/eventweek_01.jpg" alt="Competing team from Chulalongkorn University" />
+              <h5 class="slide-caption">A competing team from Chulalongkorn University, Thailand with their team host, Marilyn! Photo by Carolyn Yip</h5>
             </div>
-
-            <input type="checkbox" class="faux-ui-facia">
-            <div class="slide" slide="5" annot="Some friendly faces of the CaseIT 2018 Organizing Committee. Photo by Carolyn Yip">
-              <img src="img/caseit/registration-day.jpg" class="project-carousel-image" alt="Slide 5">
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/eventweek_02.jpg" alt="CaseIT 2018 Organizing Committee" />
+              <h5 class="slide-caption">Some friendly faces of the CaseIT 2018 Organizing Committee. Photo by Carolyn Yip</h5>
             </div>
-
-            <input type="checkbox" class="faux-ui-facia">
-            <div class="slide" slide="4" annot="Sierra Wireless Welcome Dinner at the Polygon Gallery in North Vancouver. Photo by Carolyn Yip">
-              <img src="img/caseit/sierra-wireless-welcome-dinner.jpg" class="project-carousel-image" alt="Slide 4">
-            </div>
-
-            <input type="checkbox" class="faux-ui-facia">
-            <div class="slide" slide="3" annot="A keynote speaker at the Sierra Wireless Welcome Dinner. Photo by Carolyn Yip">
-              <img src="img/caseit/sierra-wireless-welcome-dinner1.jpg" class="project-carousel-image" alt="Slide 3">
-            </div>
-
-            <input type="checkbox" class="faux-ui-facia">
-            <div class="slide" slide="2" annot="During the Beedie Final Presentations where competing teams present their business case. Photo by Carolyn Yip">
-              <img src="img/caseit/beedie-final-presentations.jpg" class="project-carousel-image" alt="Slide 2">
-            </div>
-
-            <input type="checkbox" class="faux-ui-facia">
-            <div class="slide" slide="1" annot="CIO Association of Canada Awards Banquet at the Vancouver Convention Centre. Photo by Carolyn Yip">
-              <img src="img/caseit/cio-finals-banquet.jpg" class="project-carousel-image" alt="Slide 1">
-            </div>
-
-            <div class="counter" count="6"> / 6</div>
-
-          </div> -->
-
-          <div class="project caseit" data-imgSelect="0">
-
-
-                <section class="projectBody">
-
-                    <!-- images -->
-                    <div class="images">
-                        <div class="col-1 first-col m-none"></div>
-                        <div class="imageBox col-10 m-col-11">
-                            <div class="imageButtonRight"></div>
-                            <div class="imageButtonLeft"></div>
-                            <img  src="img/caseit/chulalongkorn-thailand-team.jpg" data-imgNum="0">
-                            <img  src="img/caseit/registration-day.jpg" data-imgNum="1">
-                            <img  src="img/caseit/sierra-wireless-welcome-dinner.jpg" data-imgNum="2">
-                            <img  src="img/caseit/sierra-wireless-welcome-dinner1.jpg" data-imgNum="3">
-                            <img  src="project_images/highline/hh_05.jpg" data-imgNum="4">
-                            <img  src="project_images/highline/hh_06.jpg" data-imgNum="5">
-                            <img  src="project_images/highline/hh_07.jpg" data-imgNum="6">
-                        </div>
-                        <div class="dotBox"></div>
-                    </div>
-                </section>
-
-            </div>
-
-          <!-- <div class="slideshow-container1">
-
-            <div class="slideshow1 fade">
-               <img src="img/caseit/chulalongkorn-thailand-team.jpg" class="project-carousel-image" alt="Competing team from Chulalongkorn University">
-               <h5 class="slide-caption">A competing team from Chulalongkorn University, Thailand with their team host, Marilyn! Photo by Carolyn Yip</h5>
-             </div>
-
-             <div class="slideshow1 fade">
-               <img src="img/caseit/registration-day.jpg" class="project-carousel-image" alt="CaseIT 2018 Organizing Committee">
-               <h5 class="slide-caption">Some friendly faces of the CaseIT 2018 Organizing Committee. Photo by Carolyn Yip</h5>
-             </div>
-
-             <div class="slideshow1 fade">
-               <img src="img/caseit/sierra-wireless-welcome-dinner.jpg" class="project-carousel-image" alt="Sierra Wireless Welcome Dinner">
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/eventweek_03.jpg" alt="Sierra Wireless Welcome Dinner" />
                <h5 class="slide-caption">Sierra Wireless Welcome Dinner at the Polygon Gallery in North Vancouver. Photo by Carolyn Yip</h5>
-             </div>
-
-             <div class="slideshow1 fade">
-               <img src="img/caseit/sierra-wireless-welcome-dinner1.jpg" class="project-carousel-image" alt="Sierra Wireless Welcome Dinner">
-               <h5 class="slide-caption">A keynote speaker at the Sierra Wireless Welcome Dinner. Photo by Carolyn Yip</h5>
-             </div>
-
-             <div class="slideshow1 fade">
-               <img src="img/caseit/beedie-final-presentations.jpg" class="project-carousel-image" alt="Beedie Final Presentations">
-               <h5 class="slide-caption">During the Beedie Final Presentations where competing teams present their business case. Photo by Carolyn Yip</h5>
-             </div>
-
-             <div class="slideshow1 fade">
-               <img src="img/caseit/cio-finals-banquet.jpg" class="project-carousel-image" alt="CIO Association of Canada Awards Banquet">
-               <h5 class="slide-caption">CIO Association of Canada Awards Banquet at the Vancouver Convention Centre. Photo by Carolyn Yip</h5>
-             </div>
-
-             <a class="prev" onclick="plusSlides1(-1)">⟵</a>
-             <a class="next" onclick="plusSlides1(1)">⟶</a>
-
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/eventweek_04.jpg" alt="Sierra Wireless Welcome Dinner" />
+              <h5 class="slide-caption">A keynote speaker at the Sierra Wireless Welcome Dinner. Photo by Carolyn Yip</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/eventweek_05.jpg" alt="Beedie Final Presentations" />
+              <h5 class="slide-caption">During the Beedie Final Presentations where competing teams present their business case. Photo by Carolyn Yip</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/eventweek_06.jpg" alt="CIO Association of Canada Awards Banquet" />
+              <h5 class="slide-caption">CIO Association of Canada Awards Banquet at the Vancouver Convention Centre. Photo by Carolyn Yip</h5>
+            </div>
           </div>
-
-          <br>
-
-          <div class="slide-dots centred">
-            <span class="dot" onclick="currentSlide1(1)"></span>
-            <span class="dot" onclick="currentSlide1(2)"></span>
-            <span class="dot" onclick="currentSlide1(3)"></span>
-            <span class="dot" onclick="currentSlide1(4)"></span>
-            <span class="dot" onclick="currentSlide1(5)"></span>
-            <span class="dot" onclick="currentSlide1(6)"></span>
-          </div>
-
-          <br> -->
 
           <h2 class="sub-title1">Process</h2>
           <h3 class="sub-title2">Design Decisions</h3>
@@ -221,102 +140,65 @@
         <div class="project-analysis project_container">
           <h2 class="sub-title1">Final Product</h2>
           <p>There were a plethora of design deliverables (in a variety of printed and digital communications) to be completed in the months leading up to the event. This included but was not limited to a new logo design, various sponsorship packages, name tags, place cards, buttons, social media banners, photo booth backdrop, and event programs.</p>
+
           <br>
 
-          <div class="slideshow-container2">
-
-            <div class="slideshow2 fade">
-               <img src="img/caseit/welcomepackage_01.png" class="project-carousel-image" alt="Competitor's Welcome Package">
-               <h5 class="slide-caption">Competitor's Welcome Package</h5>
-             </div>
-
-             <div class="slideshow2 fade">
-               <img src="img/caseit/welcomepackage_02.png" class="project-carousel-image" alt="Table of Contents">
-               <h5 class="slide-caption">Selected Spread — Table of Contents</h5>
-             </div>
-
-             <div class="slideshow2 fade">
-               <img src="img/caseit/welcomepackage_03.png" class="project-carousel-image" alt="15 Years of Celebration">
-               <h5 class="slide-caption">Selected Spread — 15 Years of Celebration</h5>
-             </div>
-
-             <div class="slideshow2 fade">
-               <img src="img/caseit/welcomepackage_04.png" class="project-carousel-image" alt="Signature Event">
-               <h5 class="slide-caption">Selected Spread — Signature Event (Ad provided by Beedie)</h5>
-             </div>
-
-             <div class="slideshow2 fade">
-               <img src="img/caseit/welcomepackage_05.png" class="project-carousel-image" alt="Competitor World Map">
-               <h5 class="slide-caption">Selected Spread — Map of Competing Teams</h5>
-             </div>
-
-             <div class="slideshow2 fade">
-               <img src="img/caseit/welcomepackage_06.png" class="project-carousel-image" alt="CaseIT 2018 Organizing Committee">
-               <h5 class="slide-caption">Selected Spread — CaseIT 2018 Organizing Committee</h5>
-             </div>
-
-             <a class="prev" onclick="plusSlides2(-1)">⟵</a>
-             <a class="next" onclick="plusSlides2(1)">⟶</a>
-
+          <div class="carousel"
+             data-flickity='{ "lazyLoad": true }'>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/welcomepackage_01.png" alt="Competitor's Welcome Package" />
+              <h5 class="slide-caption">Competitor's Welcome Package</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/welcomepackage_02.png" alt="Table of Contents" />
+              <h5 class="slide-caption">Selected Spread — Table of Contents</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/welcomepackage_03.png" alt="15 Years of Celebration" />
+              <h5 class="slide-caption">Selected Spread — 15 Years of Celebration</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/welcomepackage_04.png" alt="Signature Event" />
+              <h5 class="slide-caption">Selected Spread — Signature Event (Ad provided by Beedie)</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/welcomepackage_05.png" alt="Competitor World Map" />
+              <h5 class="slide-caption">Selected Spread — Map of Competing Teams</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/welcomepackage_06.png" alt="CaseIT 2018 Organizing Committee" />
+              <h5 class="slide-caption">Selected Spread — CaseIT 2018 Organizing Committee</h5>
+            </div>
           </div>
 
           <br>
 
-          <div class="slide-dots centred">
-            <span class="dot" onclick="currentSlide2(1)"></span>
-            <span class="dot" onclick="currentSlide2(2)"></span>
-            <span class="dot" onclick="currentSlide2(3)"></span>
-            <span class="dot" onclick="currentSlide2(4)"></span>
-            <span class="dot" onclick="currentSlide2(5)"></span>
-            <span class="dot" onclick="currentSlide2(6)"></span>
+          <div class="carousel"
+             data-flickity='{ "lazyLoad": true }'>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/finalproduct_01.png" alt="Judging Folders" />
+              <h5 class="slide-caption">Judging Folders</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/finalproduct_02.png" alt="CaseIT Buttons" />
+              <h5 class="slide-caption">Buttons for CaseIT's 15th Anniversary — super fun to design!</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/finalproduct_03.png" alt="Nametags" />
+              <h5 class="slide-caption">Nametags</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/finalproduct_04.png" alt="Dinner Placecards" />
+              <h5 class="slide-caption">Dinner Placecards</h5>
+            </div>
+            <div class="carousel-cell">
+              <img class="carousel-cell-image" data-flickity-lazyload="img/caseit/finalproduct_05.png" alt="CaseIT Sweater" />
+              <h5 class="slide-caption">CaseIT Sweater</h5>
+            </div>
           </div>
 
           <br>
-
-          <div class="slideshow-container3">
-
-            <div class="slideshow3 fade">
-               <img src="img/caseit/finalproduct_01.png" class="project-carousel-image" alt="Judging Folders">
-               <h5 class="slide-caption">Judging Folders</h5>
-             </div>
-
-             <div class="slideshow3 fade">
-               <img src="img/caseit/finalproduct_02.png" class="project-carousel-image" alt="CaseIT Buttons">
-               <h5 class="slide-caption">Buttons for CaseIT's 15th Anniversary — super fun to design!</h5>
-             </div>
-
-             <div class="slideshow3 fade">
-               <img src="img/caseit/finalproduct_03.png" class="project-carousel-image" alt="Nametags">
-               <h5 class="slide-caption">Nametags</h5>
-             </div>
-
-             <div class="slideshow3 fade">
-               <img src="img/caseit/finalproduct_04.png" class="project-carousel-image" alt="Dinner Placecards">
-               <h5 class="slide-caption">Dinner Placecards</h5>
-             </div>
-
-             <div class="slideshow3 fade">
-               <img src="img/caseit/finalproduct_05.png" class="project-carousel-image" alt="CaseIT Sweater">
-               <h5 class="slide-caption">CaseIT Sweaters</h5>
-             </div>
-
-             <a class="prev" onclick="plusSlides3(-1)">⟵</a>
-             <a class="next" onclick="plusSlides3(1)">⟶</a>
-
-          </div>
-
-          <br>
-
-          <div class="slide-dots centred">
-            <span class="dot" onclick="currentSlide3(1)"></span>
-            <span class="dot" onclick="currentSlide3(2)"></span>
-            <span class="dot" onclick="currentSlide3(3)"></span>
-            <span class="dot" onclick="currentSlide3(4)"></span>
-            <span class="dot" onclick="currentSlide3(5)"></span>
-          </div>
-
-          <br>
-
+          
           <h2 class="sub-title1">Takeaway</h2>
           <p>It was extremely exciting to be a part of a team that was planning the execution of a such a large scale event and I am so glad that I got the chance to be able to collaborate with each of the 42 dedicated individuals who made up the Organizing Committee. I think what helped make this event successful was the team's willingness to work together and get things done and our collective determination to exceed everyone's expectations.</p>
           <p>By the end of this event, I had also gotten the opportunity to view more of the behind-the-scene processes of print production, and to see the print materials I had designed in real life and used through out each of CaseIT’s multi-day events were especially rewarding.</p>
@@ -328,6 +210,7 @@
     </section>
 
   	<script src="scripts/main.js"></script>
+    <script src="scripts/flickity.pkgd.min.js"></script>
 
   </body>
 </html>
