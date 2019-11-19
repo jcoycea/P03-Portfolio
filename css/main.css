@@ -149,6 +149,26 @@ img {
   color: #4151a3;
 }
 
+.sg-copyright-links {
+  text-align: center;
+  margin: 2em 2em 2em 0;
+}
+
+.sg-copyright-links a {
+  font-family: nimbus-sans-extended, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  font-size: 0.7rem;
+  color: #666;
+  text-align: right;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.sg-copyright-links a:hover {
+  color: #4151a3;
+}
+
 /***** STYLE GUIDE BRANDING *****/
 
 .palette_container .color_title {
