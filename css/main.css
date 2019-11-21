@@ -328,6 +328,36 @@ figcaption {
   margin: 0;
 }
 
+.project-pagination {
+  margin-top: 8em;
+}
+
+.pagination-container {
+  background-color: #313131;
+  padding: 3em 0;
+}
+
+.previous-title, .next-title {
+  color: #FFF;
+}
+
+.previous-title:hover, .next-title:hover {
+  color: #4151a3;
+}
+
+.prev-project-name, .next-project-name {
+  font-family: nimbus-sans-extended, sans-serif;
+	font-weight: 700;
+}
+
+.next-project-name {
+  padding-right: 0.4rem;
+}
+
+.prev-project-name {
+  padding-left: 0.4rem;
+}
+
 /***** ABOUT SECTION LAYOUT *****/
 
 #about-page {
