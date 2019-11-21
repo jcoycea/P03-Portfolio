@@ -6,6 +6,16 @@ body {
   margin: 0;
 }
 
+/* html, body {
+  cursor: url('/img/black-big.png'), auto;
+  cursor: crosshair;
+} */
+
+a {
+  /* cursor: url('/img/black-small.png'), auto; */
+  cursor: crosshair;
+}
+
 h1 { /* project description */
 	font-family: "Canela-Thin", calluna, serif;
   font-size: 2rem;
@@ -452,7 +462,7 @@ em {
 
 .copyright-text {
   float: left;
-  margin: 2em 0 2em 2em;
+  margin: 2em 0 2em 1.5em;
 }
 
 .copyright-text a {
@@ -467,7 +477,7 @@ em {
 
 .copyright-links {
   float: right;
-  margin: 2em 2em 2em 0;
+  margin: 2em 1.5em 2em 0;
 }
 
 .copyright-links a {
@@ -488,7 +498,7 @@ em {
   top: 0;
   position: fixed;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
   z-index: 100;
 }
 

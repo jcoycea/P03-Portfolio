@@ -163,8 +163,8 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     padding-bottom: 4.5em;
   }
 
-  .flickity-prev-next-button {
-    display: none;
+  .flickity-prev-next-button .flickity-button-icon {
+    display: none; /* don't display the prev/next buttons on mobile */
   }
 
   .previous-title, .next-title {
