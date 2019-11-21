@@ -86,7 +86,6 @@ https://flickity.metafizzy.co
   border: none;
   border-radius: 50%;
 
-  background: yellow;
   background: hsla(0, 0%, 100%, 0.75);
   /* vertically center */
   -webkit-transform: translateY(-50%);

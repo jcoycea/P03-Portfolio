@@ -2,26 +2,12 @@
 SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
 *****/
 
-@media (max-width: 1200px) {
-
-  .project .imageBox {
-    padding-top: calc((8.33%*12 - 1.25rem)*0.667) !important;
-    margin: 0 !important;
-    width: 100% !important;
-  }
-  .project .images {
-    margin: 0 0 7.5rem 0;
-    height: auto;
-  }
-
-}
-
 /* TABLET VIEW */
 
 @media screen and (max-width: 768px) {
   .about-me {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
   }
 
   .about-me .push-1-3 {
@@ -34,14 +20,14 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
 
   #style-guide .grid, #sg-about .grid,
   #sg-project1 .grid, #sg-project2 .grid, #project-list .grid {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
   }
 
   .main_nav, .footer {
     margin-top: 0;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     position: relative;
   }
 
@@ -89,8 +75,8 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   }
 
   .list_project_name {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
   }
 
   #project-list .grid {
@@ -119,6 +105,7 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
 
   .copyright-links {
     margin: 1.5em 0;
+    float: none;
   }
 
   /* Portfolio Projects */
@@ -131,7 +118,7 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
 
   .project_brief {
     margin: 0;
-    padding: 0 2em 2em 2em;
+    padding: 0 1.5em 2em 1.5em;
   }
 
   .project-hero {
@@ -160,8 +147,8 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   }
 
   .project_container {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
 
   .overlap-middle-image {
@@ -176,7 +163,13 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     padding-bottom: 4.5em;
   }
 
-  .prev, .next {
+  .flickity-prev-next-button {
     display: none;
   }
+
+  .previous-title, .next-title {
+    /* line-height: 2.4rem; */
+    font-size: 1rem;
+  }
+
 }
