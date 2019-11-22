@@ -43,6 +43,14 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     height: 8px;
     width: 8px;
   }
+
+  .copyright-text {
+    float: none;
+  }
+
+  .copyright-links {
+    float: none;
+  }
 }
 
 @media (max-width: 690px) {
@@ -98,14 +106,8 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     font-size: 2rem;
   }
 
-  .copyright-text {
-    float: none;
-    margin: 1.5em 0 0 0;
-  }
-
-  .copyright-links {
+  .copyright-text, .copyright-links {
     margin: 1.5em 0;
-    float: none;
   }
 
   /* Portfolio Projects */
