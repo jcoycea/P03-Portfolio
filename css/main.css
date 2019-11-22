@@ -306,11 +306,6 @@ img {
 }
 
 figcaption {
-  /* text-align: center;
-  font-family: "Canela-Thin", calluna, serif;
-  font-weight: 300;
-  letter-spacing: 0.05rem; */
-  /* margin-top: 0.5rem; */
   margin: 1rem 2.5rem 0 2.5rem;
 }
 
@@ -341,6 +336,10 @@ figcaption {
   color: #FFF;
   line-height: 2.5rem;
   font-size: 2rem;
+
+  display: inline-block;
+  padding: 0.1em;
+  margin: 0.25em 0;
 }
 
 .previous-title:hover, .next-title:hover {
