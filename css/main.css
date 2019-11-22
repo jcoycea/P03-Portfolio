@@ -6,14 +6,12 @@ body {
   margin: 0;
 }
 
-/* html, body {
-  cursor: url(".../img/cursor/small-dot.svg"), auto;
-  cursor: crosshair;
-} */
+html {
+  cursor: url(http://www.sfu.ca/~jaquino/big-dot.png) 14 14, auto;
+}
 
 a {
-  cursor: url("../img/cursor/big-dot.svg"), auto;
-  cursor: crosshair;
+  cursor: url(http://www.sfu.ca/~jaquino/small-dot.png) 7 7, auto;
 }
 
 h1 { /* project description */
@@ -174,8 +172,12 @@ img {
   padding: 0 1.5rem;
 }
 
-.sg-copyright-links a:hover {
+.sg-copyright-links a:hover, .citations-links a:hover {
   color: #4151a3;
+}
+
+.citations-links a {
+  color: #000;
 }
 
 /***** STYLE GUIDE BRANDING *****/
@@ -256,17 +258,6 @@ img {
 
 .project-desc .col-8-12 {
   padding: 0 1rem 1rem 1rem;
-}
-
-.main-title {
-  line-height: 2.9rem;
-  font-size: 2.4rem;
-}
-
-.bold-project-name {
-  font-family: nimbus-sans-extended, sans-serif;
-	font-weight: 700;
-  padding-right: 0.4rem;
 }
 
 .project-specs .col-4-12 {
@@ -536,6 +527,21 @@ em {
 #tealeaves, #manulife, #caseit,
 #locale, #illustrations, #graphic-archive {
   margin-top: 8em;
+}
+
+.main-title {
+  line-height: 2.9rem;
+  font-size: 2.4rem;
+
+  display: inline-block;
+  padding: 0.1em;
+  margin: 0.25em 0;
+}
+
+.bold-project-name {
+  font-family: nimbus-sans-extended, sans-serif;
+	font-weight: 700;
+  padding-right: 0.4rem;
 }
 
 .project-link {
