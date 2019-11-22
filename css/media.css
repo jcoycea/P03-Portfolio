@@ -167,6 +167,14 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     display: none; /* don't display the prev/next buttons on mobile */
   }
 
+  .project-pagination {
+    margin-top: 6em;
+  }
+
+  .pagination-container {
+    padding: 1.5em 0;
+  }
+
   .previous-title, .next-title {
     /* line-height: 2.4rem; */
     font-size: 1rem;

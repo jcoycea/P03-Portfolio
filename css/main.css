@@ -342,13 +342,13 @@ figcaption {
 }
 
 .pagination-container {
-  background-color: #313131;
+  background-color: #7B7B7B;
   padding: 3em 0;
 }
 
 .previous-title, .next-title {
   color: #FFF;
-  line-height: 2.8rem;
+  line-height: 2.5rem;
   font-size: 2rem;
 }
 
