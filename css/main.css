@@ -12,7 +12,7 @@ body {
 } */
 
 a {
-  /* cursor: url('/img/black-small.png'), auto; */
+  cursor: url("../img/cursor/big-dot.svg"), auto;
   cursor: crosshair;
 }
 
@@ -127,7 +127,6 @@ img {
 
 .sg_main_nav {
   width: 100%;
-  background-color: none;
   top: 0;
   position: relative;
   z-index: 100;
@@ -373,7 +372,7 @@ figcaption {
 /***** ABOUT SECTION LAYOUT *****/
 
 #about-page {
-  background-color: #313131;
+  background-color: #7B7B7B; /* #313131; */
   color: #FFF;
 }
 
@@ -394,7 +393,9 @@ figcaption {
   border-bottom: 1px solid #FFF;
 }
 
-#about-page .main_nav_left:hover, #about-page .intext-link:hover, .copyright-links a:hover {
+#about-page .main_nav_left:hover, #about-page .main_nav_left:focus,
+#about-page .intext-link:hover, #about-page .intext-link:focus,
+.copyright-links a:hover, #about-page .copyright-links a:focus {
   color: #4151a3;
 }
 
@@ -554,7 +555,6 @@ em {
   bottom: 0;
   position: fixed;
   overflow: hidden;
-  background-color: none;
   z-index: 100;
 }
 
