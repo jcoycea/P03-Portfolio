@@ -94,6 +94,7 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button:hover {
   background: white;
+  cursor: url(http://www.sfu.ca/~jaquino/small-dot.png) 7 7, auto;
 }
 
 .flickity-prev-next-button:focus {
