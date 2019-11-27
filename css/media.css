@@ -2,6 +2,17 @@
 SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
 *****/
 
+@media screen and (max-width: 950px) {
+  #manulife-grid .bold-project-name {
+    width: 16em;
+    margin: 2em 2.5em 0 3em;
+  }
+
+  #manulife-grid .main-title {
+    margin: 5em 2.5em 0 3em;
+  }
+}
+
 /* TABLET VIEW */
 
 @media screen and (max-width: 768px) {
@@ -27,8 +38,18 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
     /* align-items: flex-end; */
   }
 
-  #project-list {
+  #project-list, #project-grid {
     margin-top: 0;
+  }
+
+  #project-grid {
+    margin-bottom: 0;
+  }
+
+  #project-grid .main-title,
+  #project-grid .bold-project-name {
+    line-height: 2.2rem;
+    font-size: 1.6rem;
   }
 
   #style-guide .grid, #sg-about .grid,
@@ -75,6 +96,13 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   }
 }
 
+@media screen and (max-width: 568px) {
+
+  #manulife-grid .main-title {
+    margin: 5em 2.5em 0 3em;
+  }
+}
+
 /* Portrait and Landscape Mobile */
 /* @media only screen
   and (min-width: 375px)
@@ -110,6 +138,14 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   .main-title {
     line-height: 2.4rem;
     font-size: 1.8rem;
+  }
+
+  #project-grid .bold-project-name {
+    margin: 1.2em 2.5em 0 2.5em;
+  }
+
+  #project-grid .main-title {
+    margin: 2.6em 2.5em 0 2.5em;
   }
 
   /* Portfolio About */
@@ -191,7 +227,6 @@ SEPERATE CSS STYLESHEET FOR MEDIA QUERIES
   }
 
   .previous-title, .next-title {
-    /* line-height: 2.4rem; */
     font-size: 1rem;
   }
 

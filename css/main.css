@@ -61,7 +61,7 @@ ul, li {
 }
 
 a {
-  color: darkgray;
+  color: #000;
   transition: 0.3s ease-out;
   text-decoration: none;
   cursor: url(http://www.sfu.ca/~jaquino/small-dot.png) 7 7, auto;
@@ -523,8 +523,12 @@ figcaption {
   margin: 1em 0 1em 1em;
 }
 
-#project-list {
+#project-list, #project-grid {
   margin-top: 10em;
+}
+
+#project-grid {
+  margin-bottom: 6em;
 }
 
 #tealeaves, #manulife, #caseit,
@@ -532,7 +536,7 @@ figcaption {
   margin-top: 8em;
 }
 
-.main-title {
+#project-list .main-title {
   line-height: 2.9rem;
   font-size: 2.4rem;
 
@@ -588,46 +592,68 @@ figcaption {
   margin: 1em 0 1em 1em;
 }
 
-/* Create two equal columns that floats next to each other */
-.grid-column {
-  float: left;
-  width: 50%;
-  padding: 0.5em 0;
-  /* margin-right: 3em;
-  background-color: pink; */
+#project-grid .project {
+  margin-bottom: 2.5em;
 }
 
-/* Clear floats after the columns */
-.list-row:after {
-  content: "";
-  display: table;
-  clear: both;
-  background-image: none;
+#project-grid .col-1-2 {
+  padding: 0;
 }
 
-/* Style the buttons */
-.btn {
+#project-grid .bold-project-name {
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  font-family: nimbus-sans-extended, sans-serif;
+	font-weight: 700;
+
+  z-index: 2;
+  position: absolute;
+  padding: 0;
+  margin: 2em 3em 0 3em;
+  /* width: 50%; */
+}
+
+#project-grid .main-title {
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+
+  z-index: 2;
+  position: absolute;
+  padding: 0;
+  margin: 3.6em 3em 0 3em;
+}
+
+.grid-thumbnail {
+  padding: 0 1.5em;
+  background-color: #FFF;
+}
+
+.grid-thumbnail:hover {
+  opacity: 0.6;
+  transition: 0.3s ease-out;
+}
+
+.toggle-btn {
   border: none;
   outline: none;
   padding: 0;
   margin: 0;
+  background-color: none;
 
-  transition: color 0.3s ease-out;
   text-decoration: none;
   font-family: nimbus-sans-extended, sans-serif;
 
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 1.25px;
-  color: #000;
   cursor: url(http://www.sfu.ca/~jaquino/small-dot.png) 7 7, auto;
 }
 
-.btn:hover {
+.toggle-btn:hover {
   color: #4151a3;
 }
 
-.btn.active {
+.toggle-btn.active {
   border-bottom: 1px solid #000;
   padding-bottom: 0.01em;
 }
@@ -655,13 +681,6 @@ figcaption {
   height: auto;
 }
 
-/* .illustration-grid figure video {
-  background-color: transparent !important;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-} */
-
 .illustration-grid figure figcaption, .project-hero figcaption {
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 400;
@@ -677,7 +696,6 @@ figcaption {
 /***** PORTFOLIO SLIDESHOW *****/
 
 .carousel {
-  /* background: #FAFAFA; */
   margin-bottom: 2em;
 }
 
@@ -705,7 +723,5 @@ figcaption {
   color: #666;
   text-align: center;
   padding: 0 3em;
-  /* position: absolute; */
-  /* margin-bottom: 1em; */
   width: 100%;
 }
