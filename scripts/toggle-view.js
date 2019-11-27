@@ -25,9 +25,6 @@ function gridView() {
   }
 }
 
-var title = document.getElementsByClassName("main-title");
-document.getElementsByClassName("main-title").style.fontColor = "red";
-
 /* Optional: Add active class to the current button (highlight it) */
 var container = document.getElementById("btnContainer");
 var btns = container.getElementsByClassName("btn");
