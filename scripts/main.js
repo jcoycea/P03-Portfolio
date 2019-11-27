@@ -1,6 +1,6 @@
 /****
 
-Code From:
+Lazy Loading Code From:
 - https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
 - https://codepen.io/imagekit_io/pen/BPXQZZ
 

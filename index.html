@@ -1,5 +1,5 @@
 <!--
-  Hello, nice to see you here!
+  Hello, nice to see you back here!
   Developed by Joyce Aquino
   https://joyceaquino.ca
 -->
@@ -10,7 +10,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Joyce Aquino | About</title>
+    <title>Joyce Aquino | Visual & UX Designer</title>
 
     <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -37,44 +37,35 @@
 
 
     <!-- ABOUT ME SECTION -->
+
     <section id="project-list">
       <div class="grid grid-pad">
 
-        <!-- <div class="list_project_name">
-          <a href="tealeaves.html" class="project-link">
-            <h1 class="main-title"><span class="bold-project-name">TEALEAVES</span> Visual Design, Website, Packaging</h1>
-          </a>
-        </div> -->
-
-        <div class="list_project_name">
-          <a href="managing-health-insurance.html" class="project-link">
-            <h1 class="main-title"><span class="bold-project-name">Managing Health Insurance</span> UI, UX, Prototyping</h1>
-          </a>
+        <div class="list-row">
+          <div class="grid-column project_name">
+            <a href="managing-health-insurance.html" class="project-link">
+              <h1 class="main-title"><span class="bold-project-name">Managing Health Insurance</span> UI, UX, Prototyping</h1>
+            </a>
+          </div>
+          <div class="grid-column project_name">
+            <a href="caseit-2018.html" class="project-link">
+              <h1 class="main-title"><span class="bold-project-name">CaseIT 2018</span> Branding, Print, Event</h1>
+            </a>
+          </div>
         </div>
 
-        <div class="list_project_name">
-          <a href="caseit-2018.html" class="project-link">
-            <h1 class="main-title"><span class="bold-project-name">CaseIT 2018</span> Branding, Print, Event</h1>
-          </a>
+        <div class="list-row">
+          <div class="grid-column project_name">
+            <a href="locale-magazine.html" class="project-link">
+              <h1 class="main-title"><span class="bold-project-name">Locale Magazine</span> Art Direction, Print, Layout</h1>
+            </a>
+          </div>
+          <div class="grid-column project_name">
+            <a href="illustrations.html" class="project-link">
+              <h1 class="main-title"><span class="bold-project-name">Digital Illustrations</span> Illustration, For Fun</h1>
+            </a>
+          </div>
         </div>
-
-        <div class="list_project_name">
-          <a href="locale-magazine.html" class="project-link">
-            <h1 class="main-title"><span class="bold-project-name">Locale Magazine</span> Art Direction, Print, Layout</h1>
-          </a>
-        </div>
-
-        <div class="list_project_name">
-          <a href="illustrations.html" class="project-link">
-            <h1 class="main-title"><span class="bold-project-name">Digital Illustrations</span> Illustration, For Fun</h1>
-          </a>
-        </div>
-
-        <!-- <div class="list_project_name">
-          <a href="graphic-archive.html" class="project-link">
-            <h1 class="main-title"><span class="bold-project-name">Graphic Archive</span> Graphic Design, Print</h1>
-          </a>
-        </div> -->
 
       </div>
     </section>
@@ -83,12 +74,20 @@
       <div class="footer">
         <div class="grid grid-pad">
           <div class="col-1-1">
+
             <a href="mailto:jaquino@sfu.ca?Subject=Hello!" class="footer_left">Get In Touch</a>
-            <a href="https://www.instagram.com/jcoycea/" class="footer_right">Instagram</a>
+            <div id="btnContainer" class="footer_right">
+              <button class="btn" onclick="listView()">List</button>
+              <span class="index-slash">/</span>
+              <button class="btn active" onclick="gridView()">Grid</button>
+            </div>
+
           </div>
         </div>
       </div>
     </footer>
+
+    <script src="scripts/toggle-view.js"></script>
 
   </body>
 

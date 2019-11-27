@@ -537,7 +537,7 @@ figcaption {
   font-size: 2.4rem;
 
   display: inline-block;
-  padding: 0.1em;
+  padding: 0;
   margin: 0.25em 0;
 }
 
@@ -586,6 +586,54 @@ figcaption {
 .footer_right {
   float: right;
   margin: 1em 0 1em 1em;
+}
+
+/* Create two equal columns that floats next to each other */
+.grid-column {
+  float: left;
+  width: 50%;
+  padding: 0.5em 0;
+  /* margin-right: 3em;
+  background-color: pink; */
+}
+
+/* Clear floats after the columns */
+.list-row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-image: none;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+
+  transition: color 0.3s ease-out;
+  text-decoration: none;
+  font-family: nimbus-sans-extended, sans-serif;
+
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.25px;
+  color: #000;
+  cursor: url(http://www.sfu.ca/~jaquino/small-dot.png) 7 7, auto;
+}
+
+.btn:hover {
+  color: #4151a3;
+}
+
+.btn.active {
+  border-bottom: 1px solid #000;
+  padding-bottom: 0.01em;
+}
+
+.index-slash {
+  margin: 0 0.5em;
 }
 
 /***** PORTFOLIO ILLUSTRATIONS *****/
